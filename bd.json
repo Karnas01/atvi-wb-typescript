@@ -1,0 +1,73 @@
+{
+    "clientes":[
+        {
+            "nome":"Fulano",
+            "nomeSocial":"Fulano",
+            "cpf":{
+                "valor":"1234",
+                "dataEmissao": "01/01/2001"
+            },
+            "genero": "M",
+            "produtosConsumidos":[
+            ],
+            "servicosConsumidos":[
+            ]
+        },
+        {
+            "nome":"Fulana",
+            "nomeSocial":"Fulana",
+            "cpf":{
+                "valor":"4444",
+                "dataEmissao": "02/02/2003"
+            },
+            "genero": "F",
+            "produtosConsumidos":[
+            ],
+            "servicosConsumidos":[
+            ]
+        },
+        {
+            "nome":"Fulane",
+            "nomeSocial":"Fulane",
+            "cpf":{
+                "valor":"4444",
+                "dataEmissao": "02/02/2003"
+            },
+            "genero": "O",
+            "produtosConsumidos":[
+                
+            ],
+            "servicosConsumidos":[
+                
+            ]
+        }
+    ],
+    "produtos":[
+        {
+            "cod": 0,
+            "nome":"Produto 1",
+            "valor":15.99,
+            "consumido": 0
+        },
+        {
+            "cod": 12,
+            "nome":"Produto 2",
+            "valor": 12.29,
+            "consumido": 0
+        }
+    ],
+    "servicos":[
+        {
+            "cod":0,
+            "nome":"Serviço 1",
+            "valor":29.99,
+            "consumido": 0
+        },
+        {
+            "cod":23,
+            "nome":"Serviço 2",
+            "valor":49.99,
+            "consumido": 0
+        }
+    ]
+}
